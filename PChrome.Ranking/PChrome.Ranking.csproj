@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\template.targets" />
+  <ItemGroup>
+    <PackageReference Include="linq2db" Version="4.4.0" />
+    <ProjectReference Include="..\LazyUtils\LazyUtils\LazyUtils.csproj" />
+    <ProjectReference Include="..\PChrome.DeathTimes\PChrome.DeathTimes.csproj" />
+    <ProjectReference Include="..\PChrome.OnlineTime\PChrome.OnlineTime.csproj" />
+  </ItemGroup>
+</Project>
